@@ -8,26 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		E5C2BEB12472284E00512EB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C2BEB02472284E00512EB3 /* AppDelegate.m */; };
-		E5C2BEB42472284E00512EB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C2BEB32472284E00512EB3 /* ViewController.m */; };
 		E5C2BEB72472284E00512EB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C2BEB52472284E00512EB3 /* Main.storyboard */; };
 		E5C2BEBA2472284E00512EB3 /* ToDoManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5C2BEB82472284E00512EB3 /* ToDoManager.xcdatamodeld */; };
 		E5C2BEBC2472285100512EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5C2BEBB2472285100512EB3 /* Assets.xcassets */; };
 		E5C2BEBF2472285100512EB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C2BEBD2472285100512EB3 /* LaunchScreen.storyboard */; };
 		E5C2BEC22472285100512EB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C2BEC12472285100512EB3 /* main.m */; };
+		E5C2BECA247228F100512EB3 /* MyUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C2BEC9247228F100512EB3 /* MyUINavigationController.m */; };
+		E5C2BECD2472293B00512EB3 /* MyUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C2BECC2472293B00512EB3 /* MyUITableViewController.m */; };
+		E5C2BED02472297A00512EB3 /* MyUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C2BECF2472297A00512EB3 /* MyUIViewController.m */; };
+		E5C2BEDB24722F6E00512EB3 /* MyUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C2BEDA24722F6E00512EB3 /* MyUITableViewCell.m */; };
+		E5C2BEE0247299F200512EB3 /* ToDoEntity+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C2BEDE247299F200512EB3 /* ToDoEntity+CoreDataClass.m */; };
+		E5C2BEE1247299F200512EB3 /* ToDoEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C2BEDF247299F200512EB3 /* ToDoEntity+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E5C2BEAC2472284E00512EB3 /* ToDoManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C2BEAF2472284E00512EB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E5C2BEB02472284E00512EB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E5C2BEB22472284E00512EB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E5C2BEB32472284E00512EB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E5C2BEB62472284E00512EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5C2BEB92472284E00512EB3 /* ToDoManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoManager.xcdatamodel; sourceTree = "<group>"; };
 		E5C2BEBB2472285100512EB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5C2BEBE2472285100512EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5C2BEC02472285100512EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5C2BEC12472285100512EB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5C2BEC8247228F100512EB3 /* MyUINavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUINavigationController.h; sourceTree = "<group>"; };
+		E5C2BEC9247228F100512EB3 /* MyUINavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUINavigationController.m; sourceTree = "<group>"; };
+		E5C2BECB2472293B00512EB3 /* MyUITableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUITableViewController.h; sourceTree = "<group>"; };
+		E5C2BECC2472293B00512EB3 /* MyUITableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUITableViewController.m; sourceTree = "<group>"; };
+		E5C2BECE2472297A00512EB3 /* MyUIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUIViewController.h; sourceTree = "<group>"; };
+		E5C2BECF2472297A00512EB3 /* MyUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUIViewController.m; sourceTree = "<group>"; };
+		E5C2BED1247229F900512EB3 /* DPHandlesMOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPHandlesMOC.h; sourceTree = "<group>"; };
+		E5C2BED224722A3D00512EB3 /* DPHandlesToDoEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPHandlesToDoEntity.h; sourceTree = "<group>"; };
+		E5C2BED924722F6E00512EB3 /* MyUITableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUITableViewCell.h; sourceTree = "<group>"; };
+		E5C2BEDA24722F6E00512EB3 /* MyUITableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyUITableViewCell.m; sourceTree = "<group>"; };
+		E5C2BEDC247299F200512EB3 /* ToDoEntity+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToDoEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E5C2BEDD247299F200512EB3 /* ToDoEntity+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToDoEntity+CoreDataClass.h"; sourceTree = "<group>"; };
+		E5C2BEDE247299F200512EB3 /* ToDoEntity+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ToDoEntity+CoreDataClass.m"; sourceTree = "<group>"; };
+		E5C2BEDF247299F200512EB3 /* ToDoEntity+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ToDoEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +61,10 @@
 		E5C2BEA32472284E00512EB3 = {
 			isa = PBXGroup;
 			children = (
+				E5C2BEDC247299F200512EB3 /* ToDoEntity+CoreDataProperties.h */,
+				E5C2BEDD247299F200512EB3 /* ToDoEntity+CoreDataClass.h */,
+				E5C2BEDE247299F200512EB3 /* ToDoEntity+CoreDataClass.m */,
+				E5C2BEDF247299F200512EB3 /* ToDoEntity+CoreDataProperties.m */,
 				E5C2BEAE2472284E00512EB3 /* ToDoManager */,
 				E5C2BEAD2472284E00512EB3 /* Products */,
 			);
@@ -62,9 +83,17 @@
 			children = (
 				E5C2BEAF2472284E00512EB3 /* AppDelegate.h */,
 				E5C2BEB02472284E00512EB3 /* AppDelegate.m */,
-				E5C2BEB22472284E00512EB3 /* ViewController.h */,
-				E5C2BEB32472284E00512EB3 /* ViewController.m */,
 				E5C2BEB52472284E00512EB3 /* Main.storyboard */,
+				E5C2BED1247229F900512EB3 /* DPHandlesMOC.h */,
+				E5C2BED224722A3D00512EB3 /* DPHandlesToDoEntity.h */,
+				E5C2BEC8247228F100512EB3 /* MyUINavigationController.h */,
+				E5C2BEC9247228F100512EB3 /* MyUINavigationController.m */,
+				E5C2BED924722F6E00512EB3 /* MyUITableViewCell.h */,
+				E5C2BEDA24722F6E00512EB3 /* MyUITableViewCell.m */,
+				E5C2BECB2472293B00512EB3 /* MyUITableViewController.h */,
+				E5C2BECC2472293B00512EB3 /* MyUITableViewController.m */,
+				E5C2BECE2472297A00512EB3 /* MyUIViewController.h */,
+				E5C2BECF2472297A00512EB3 /* MyUIViewController.m */,
 				E5C2BEBB2472285100512EB3 /* Assets.xcassets */,
 				E5C2BEBD2472285100512EB3 /* LaunchScreen.storyboard */,
 				E5C2BEC02472285100512EB3 /* Info.plist */,
@@ -144,10 +173,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5C2BEB42472284E00512EB3 /* ViewController.m in Sources */,
 				E5C2BEB12472284E00512EB3 /* AppDelegate.m in Sources */,
+				E5C2BEDB24722F6E00512EB3 /* MyUITableViewCell.m in Sources */,
 				E5C2BEC22472285100512EB3 /* main.m in Sources */,
+				E5C2BED02472297A00512EB3 /* MyUIViewController.m in Sources */,
+				E5C2BEE1247299F200512EB3 /* ToDoEntity+CoreDataProperties.m in Sources */,
+				E5C2BEE0247299F200512EB3 /* ToDoEntity+CoreDataClass.m in Sources */,
+				E5C2BECD2472293B00512EB3 /* MyUITableViewController.m in Sources */,
 				E5C2BEBA2472284E00512EB3 /* ToDoManager.xcdatamodeld in Sources */,
+				E5C2BECA247228F100512EB3 /* MyUINavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
